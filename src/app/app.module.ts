@@ -9,10 +9,14 @@ import { NgIfNgforComponent } from './ng-if-ngfor/ng-if-ngfor.component';
 import { CrudComponent } from './components/crud/crud.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { LazyloadingModule } from './modules/lazyloading/lazyloading.module';
+import { HeaderComponent } from './components/crud/header/header.component';
+import { FooterComponent } from './components/crud/footer/footer.component';
 
 
 @NgModule({
   declarations: [
+    HeaderComponent,
+    FooterComponent,
     AppComponent,
     DataBindingComponent,
     SegundoComponenteComponent,

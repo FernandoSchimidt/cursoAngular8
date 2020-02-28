@@ -23,7 +23,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations:[FooterComponent, HeaderComponent,HomelazyComponent],
+  declarations:[HomelazyComponent,HeaderComponent],
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
